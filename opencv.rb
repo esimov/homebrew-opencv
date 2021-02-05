@@ -17,8 +17,7 @@ class Opencv < Formula
     depends_on "glog"
 
     resource "contrib" do
-      url "https://github.com/opencv/opencv_contrib/archive/3.4.2.tar.gz"
-      sha256 "4fb0681414df4baedce6e3f4a01318d6f4fcde6ee14854d761fd4e397a397763"
+      url "https://github.com/opencv/opencv_contrib/archive/3.4.2.tar.gz"      
     end
 
     def install
